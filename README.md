@@ -9,6 +9,8 @@ This procedure is composed of a few steps:
 
 Our purpose was to send the model's output to an Arduino module. In case you don't need this option, you can remove any dependency on serial port communication.  
 
+![drone](drone.gif)
+
 
 ## Prerequisites  
 
