@@ -31,6 +31,8 @@ If you already has a frozen TensorFlow model, you need to use only the Jetson's 
 
 
 ## What's inside  
+### What's new:   
+* We now share our TF frozen trained model. The model can be found in [Models folder](Models).   
 
 This repository contains two code files:  
 
