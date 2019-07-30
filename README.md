@@ -1,4 +1,5 @@
 # Formula Student Technion Driverless - Implementation  
+This is the repository for the real-world implementation of the paper [Explorations and Lessons Learned in Building an Autonomous Formula SAE Car from Simulations (SIMULTECH 2019 conference)](https://arxiv.org/abs/1905.05940)  
 
 This repository introduces the procedure of implementing a model, trained by [FSTDriverless/AirSim](https://github.com/FSTDriverless/AirSim) using Keras, on Nvidia Jetson TX2.  
 
@@ -53,7 +54,18 @@ The output in our case is a prediction in a range of [0,255].
 
 The code implements an inference for PilotNet architecture. Therefore, we adjusted the image to adapt the network. It's recommended to read the code carefully.  
 
-
+### Citing    
+  
+If this repository helped you in your research, please consider citing:  
+```  
+@article{zadok2019explorations,
+  title={Explorations and Lessons Learned in Building an Autonomous Formula SAE Car from Simulations},
+  author={Zadok, Dean and Hirshberg, Tom and Biran, Amir and Radinsky, Kira and Kapoor, Ashish},
+  journal={arXiv preprint arXiv:1905.05940},
+  year={2019}
+}
+```  
+  
 ### Formula Student Technion team  
 
 [Tom Hirshberg](https://www.linkedin.com/in/tom-hirshberg-93935b16b/) and [Dean Zadok](https://www.linkedin.com/in/dean-zadok-36886791/).  
